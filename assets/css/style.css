@@ -3166,9 +3166,9 @@ form.leave textarea::placeholder{
     content: "";
     width: 100%;
     height: 100%;
-    background-color: #fff;
+    background-color:#2A2F4D;
     border-radius: 30px;
-    border: 1px solid #cbcbcb;
+    border: 1px solid #79747E;
     position: absolute;
     top: 0;
 }
@@ -4825,4 +4825,19 @@ ul.quick-links li a,ul.Meta li a,.blog.our-blog > a,.pricing-two,.location,.coun
 }
 .propel-img:before {
     display:none;
+}
+.list > li{
+ color:#fff!important;
+}
+.month{
+    background: #141A30!important;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background:#141A30;
+}
+.nav.nav-pills {
+    border: #2A2F4D 3px solid;
+}
+.nav-pills .nav-link {
+    color: #fff;
 }
