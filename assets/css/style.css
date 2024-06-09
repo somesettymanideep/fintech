@@ -255,7 +255,7 @@ figure {
 .services-slider button.owl-dot.active {
     width: 28px;
     height: 28px;
-    background-color: #f0346e;
+    background-color: #141A30;
     border-radius: 50%;
     border: 10px solid #ffffffb8;
 }
@@ -567,7 +567,8 @@ ul.star i {
     color: #ff950b;
 }
 i.quote {
-    background: linear-gradient(90deg, #ef326f , #fe6c4e );
+    /* background: linear-gradient(90deg, #ef326f , #fe6c4e ); */
+    background-color: #2A2F4D!important;
     width: 70px;
     height: 70px;
     display: flex;
@@ -580,7 +581,7 @@ i.quote {
     margin-top: 40px;
 }
 .client-text p {
-    color: #000;
+    color: #fff;
     font-size: 28px;
     font-weight: 500;
     line-height: 46px;
@@ -4840,4 +4841,10 @@ ul.quick-links li a,ul.Meta li a,.blog.our-blog > a,.pricing-two,.location,.coun
 }
 .nav-pills .nav-link {
     color: #fff;
+}
+.client-text {
+    background-color: #141A30;
+}
+.client span {
+    color: #fff!important;
 }

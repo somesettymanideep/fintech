@@ -58,7 +58,7 @@ jQuery(document).ready(function($){
         dot:true,
         nav:false,
         center:true,
-        // autoplay:true,
+        autoplay:true,
         // autoplayTimeout:3000,
         items:1,
     })
