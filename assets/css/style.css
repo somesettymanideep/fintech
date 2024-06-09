@@ -780,7 +780,7 @@ img.quote-5 {
 }
 .title {
     font-size: 20px;
-    color: #000;
+    color:#fff;
     text-align: initial;
     border-bottom: 1px solid #dadada;
     padding-bottom: 20px;
@@ -1387,9 +1387,9 @@ a.btn:hover {
 /* 23. accordio-img-style */
 .accordio-img-style img {
     border-radius: 30px;
-    box-shadow: 0px 0px 35px 10px rgba(234,234,234,1);
+    /* box-shadow: 0px 0px 35px 10px rgba(234,234,234,1);
 -webkit-box-shadow: 0px 0px 35px 10px rgba(234,234,234,1);
--moz-box-shadow: 0px 0px 35px 10px rgba(234,234,234,1);
+-moz-box-shadow: 0px 0px 35px 10px rgba(234,234,234,1); */
 }
 .accordio-img-style {
     margin-top: 40px;
@@ -1428,7 +1428,7 @@ a.btn:hover {
     border-radius: 50%;
 }
 .accordion.two .accordion-item.active .icon {
-    background: linear-gradient(90deg, #ef326f , #fe6c4e );
+    background:rgb(18, 31, 84);
     top: 62%;
 }
 .accordion.two .accordion-item .icon:before,.accordion.two .solutions:hover i,
@@ -1440,21 +1440,21 @@ a.btn:hover {
     border-bottom: 0;
 }
 .accordion.two .accordion-item {
-    border: 1px solid #d7d7d7;
+    border: 1px solid #79747E;
     border-radius: 40px;
     width: 97%;
     margin-left: auto;
     padding-right: 24px;
     margin-bottom: 24px;
     padding-left: 35px;
-    background-color: #fff;
+    background-color: #2A2F4D;
     margin-left: 26px;
 }
 .accordion.two .accordion-item.active .title {
     padding-bottom: 0;
 }
 .accordion.two .accordion-item.active {
-    border: 1px solid #f0366c;
+    border: 1px solid #79747E;
     box-shadow: 0px 0px 13px 0px rgba(241,60,107,0.3);
     -webkit-box-shadow: 0px 0px 13px 0px rgba(241,60,107,0.3);
     -moz-box-shadow: 0px 0px 13px 0px rgba(241,60,107,0.3);
@@ -4815,4 +4815,10 @@ ul.quick-links li a,ul.Meta li a,.blog.our-blog > a,.pricing-two,.location,.coun
 }
 .hero-two-texr::after {
     border:none!important;
+}
+.accordion.two .accordion-item.active .title {
+    color:#fff!important;
+}
+.accordio-img-style::before {
+    display: none;
 }
