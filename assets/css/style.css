@@ -4125,7 +4125,7 @@ display: none;
   transition: transform .4s, -webkit-transform .4s;
 }
 header.two.topnav .menu-icon .icon i {
-    background: #000;
+    background: #fff;
 }
 header.two.topnav .menu-icon.open .icon i {
     background: #fff;
@@ -4851,7 +4851,7 @@ ul.quick-links li a,ul.Meta li a,.blog.our-blog > a,.pricing-two,.location,.coun
 .solutions:hover, .blog-style:hover, .digital-marketing:hover {
     box-shadow:#141A30 8px 8px 0px 0px!important;
 }
-.propel-img:after {
+/* .propel-img:after {
     z-index: 0;
     content: "";
     position: absolute;
@@ -4862,4 +4862,12 @@ ul.quick-links li a,ul.Meta li a,.blog.our-blog > a,.pricing-two,.location,.coun
     left: 100px;
     bottom: -36px;
     transform: rotate(338deg);
+} */
+.content-form label{
+    color: #fff;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+label{
+    display: inline-block;
 }
